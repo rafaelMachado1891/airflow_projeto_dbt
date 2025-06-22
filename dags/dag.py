@@ -16,7 +16,7 @@ profile_config_prod = ProfileConfig(
     profile_name="dw_dbt",
     target_name="prod",
     profile_mapping=PostgresUserPasswordProfileMapping(
-        conn_id="railway_postgres_db",
+        conn_id="render_postgres_db",
         profile_args={"schema": "public"},
     ),
 )

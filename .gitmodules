@@ -1,0 +1,3 @@
+[submodule "dbt/data_warehouse_projeto_dbt"]
+	path = dbt/data_warehouse_projeto_dbt
+	url = https://github.com/rafaelMachado1891/data_warehouse_projeto_dbt
