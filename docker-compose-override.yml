@@ -1,10 +1,10 @@
 services:
   scheduler:
     volumes:
-      - ./dbt/data_warehouse_projeto_dbt/dw_dbt:/usr/local/airflow/dbt/dw_dbt
+      - ./dbt/data_warehouse_projeto_dbt/dw_dbt:/usr/local/airflow/dbt/data_warehouse_projeto_dbt/dw_dbt
   dag-processor:
     volumes:
-      - ./dbt/data_warehouse_projeto_dbt/dw_dbt:/usr/local/airflow/dbt/dw_dbt
+      - ./dbt/data_warehouse_projeto_dbt/dw_dbt:/usr/local/airflow/dbt/data_warehouse_projeto_dbt/dw_dbt
   webserver:
     volumes:
-      - ./dbt/data_warehouse_projeto_dbt/dw_dbt:/usr/local/airflow/dbt/dw_dbt
+      - ./dbt/data_warehouse_projeto_dbt/dw_dbt:/usr/local/airflow/dbt/data_warehouse_projeto_dbt/dw_dbt
