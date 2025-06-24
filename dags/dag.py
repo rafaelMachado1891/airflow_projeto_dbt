@@ -17,7 +17,8 @@ profile_config_prod = ProfileConfig(
     target_name="prod",
     profile_mapping=PostgresUserPasswordProfileMapping(
         conn_id="render_postgres_db",
-        profile_args={"schema": "public"},
+        profile_args={"schema": "public",
+        "database": "projeto_dbt_airflow"}
     ),
 )
 
